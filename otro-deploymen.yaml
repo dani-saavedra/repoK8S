@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: estudiante
-        image: danielsabana/cualquiercosa:8.0.0
+        image: stirlingtools/stirling-pdf:latest
         ports:
         - containerPort: 8080
         resources:
