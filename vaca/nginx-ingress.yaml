@@ -9,7 +9,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /lavacadelprofe(/|$)(.*)
+      - path: /ejemplo(/|$)(.*)
         pathType: ImplementationSpecific
         backend:
           service:
