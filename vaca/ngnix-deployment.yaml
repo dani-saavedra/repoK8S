@@ -30,7 +30,7 @@ spec:
             memory: 500Mi
         startupProbe:
           httpGet:
-            path: /vaca
+            path: /actuator/health
             port: 8080
           initialDelaySeconds: 15
 
