@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vaca
-        image: danielsabana/vaca:1.3.0
+        image: danielsabana/vaca:1.5.0
         ports:
         - containerPort: 8080
         env:
